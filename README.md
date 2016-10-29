@@ -36,7 +36,7 @@ Sử dụng con trỏ:
     - với i trong khoảng [0,19] cho địa chỉ của phần tử a[i]
 - Tên mảng là một hằng địa chỉ    
     - `float a[10];`  
-    - Máy sẽ bố trí cho mảng a 10 khoảng nhớ liên tiếp (mỗi khoảng nhớ là 4 byte)    
+    - Máy sẽ bố trí cho mảng a 10 khoảng nhớ liên tiếp (mỗi khoảng nhớ là 4 byte)   
     - `a` tương đương `&a[0]`  
     - `a+1` tương đương `&a[i]`  
     - `*(a+i)` tương đương `a[i]`  
@@ -44,6 +44,11 @@ Sử dụng con trỏ:
     - `pa + i` trỏ tới phần tử thứ i sau `a[k]` , tức là `a[k+i]`    
     - `pa - i` trỏ tới phần tử thứ i trước `a[k]` , tức là` a[k-i]`    
     - `*(pa+i)` tương đương với `pa[i]`  
+
+
+### **Mảng 2 chiều** (tương tự 1 chiều)  
+![](http://2.bp.blogspot.com/-X3h8ONrV0SE/U-sj56xBHrI/AAAAAAAABpU/eOvM2HxUcik/s1600/matran.png)
+
 
 
 
